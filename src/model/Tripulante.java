@@ -10,7 +10,7 @@ public class Tripulante {
     private double nota1;
     private double nota2;
     private double nota3;
-    private float NumeroIdentificacion name;
+    private float NumeroIdentificacion;
     private String email;
     /** getters */
     public String getNombre() {
