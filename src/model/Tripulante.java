@@ -13,6 +13,7 @@ public class Tripulante {
     private float NumeroIdentificacion;
     private String email;
     /** getters */
+
     public String getNombre() {
         return nombre;
     }
@@ -25,6 +26,12 @@ public class Tripulante {
         return nota2;
     }public double getNota3() {
         return nota3;
+    }
+    public float getNumeroIdentificacion() {
+        return NumeroIdentificacion;
+    }
+    public String getEmail() {
+        return email;
     }
     /**setter */
     public void setNombre(String nombre) {
@@ -40,6 +47,12 @@ public class Tripulante {
         this.nota2 = nota2;
     }public void setNota3(double nota3) {
         this.nota3 = nota3;
+    }
+    public void setEmail(String email) {
+        this.email = email;
+    }
+    public void setNumeroIdentificacion(float numeroIdentificacion) {
+        NumeroIdentificacion = numeroIdentificacion;
     }
 
     public double getAverage(){
